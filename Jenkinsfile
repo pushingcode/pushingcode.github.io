@@ -5,7 +5,7 @@ pipeline {
       agent any
       steps {
         sh 'npm install'
-        sh 'npm run build'
+        sh 'npm run'
       }
     }
   }
