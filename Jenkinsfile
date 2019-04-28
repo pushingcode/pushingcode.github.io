@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Prebuild') {
       steps {
-        sh 'npm audit'
+        echo 'Init'
       }
     }
   }
