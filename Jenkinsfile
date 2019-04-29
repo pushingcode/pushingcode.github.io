@@ -1,11 +1,9 @@
 pipeline {
-  agent any
+  agent none
   stages {
-    stage('build') {
-      agent any
+    stage('Prebuild') {
       steps {
-        sh 'npm install'
-        sh 'npm run'
+        echo 'Init'
       }
     }
   }
